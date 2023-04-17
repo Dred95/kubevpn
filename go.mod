@@ -1,4 +1,4 @@
-module github.com/wencaiwulue/kubevpn
+module github.com/Dred95/kubevpn
 
 go 1.19
 
