@@ -10,8 +10,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/yaml"
 	"k8s.io/utils/pointer"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 //go:embed envoy.yaml

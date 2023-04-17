@@ -26,7 +26,7 @@ import (
 	"k8s.io/client-go/util/flowcontrol"
 	"k8s.io/utils/pointer"
 
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 func GetDNSServiceIPFromPod(clientset *kubernetes.Clientset, restclient *rest.RESTClient, config *rest.Config, podName, namespace string) (*miekgdns.ClientConfig, error) {

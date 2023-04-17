@@ -20,9 +20,9 @@ import (
 	"k8s.io/client-go/util/retry"
 	"k8s.io/utils/pointer"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/dns"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/dns"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 var stopChan = make(chan os.Signal)

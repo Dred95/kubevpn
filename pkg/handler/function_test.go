@@ -26,7 +26,7 @@ import (
 	"k8s.io/client-go/util/retry"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 var (

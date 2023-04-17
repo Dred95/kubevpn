@@ -8,7 +8,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/config"
 )
 
 type fakeUDPTunnelConnector struct {

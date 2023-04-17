@@ -27,8 +27,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 func run(ctx context.Context, runConfig *RunConfig, cli *client.Client, c *command.DockerCli) (id string, err error) {

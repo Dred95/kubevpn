@@ -5,8 +5,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/utils/pointer"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 func RemoveContainer(spec *corev1.PodSpec) {

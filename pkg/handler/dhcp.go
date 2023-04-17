@@ -15,7 +15,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/config"
 )
 
 type DHCPManager struct {

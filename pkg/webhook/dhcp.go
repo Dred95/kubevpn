@@ -10,8 +10,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/handler"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/handler"
 )
 
 type dhcpServer struct {

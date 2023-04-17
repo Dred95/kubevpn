@@ -8,8 +8,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"k8s.io/client-go/util/retry"
 
-	"github.com/wencaiwulue/kubevpn/pkg/driver/openvpn"
-	"github.com/wencaiwulue/kubevpn/pkg/driver/wintun"
+	"github.com/dred95/kubevpn/pkg/driver/openvpn"
+	"github.com/dred95/kubevpn/pkg/driver/wintun"
 )
 
 func InstallTunTapDriver() {

@@ -19,7 +19,7 @@ import (
 	wireguardtun "golang.zx2c4.com/wireguard/tun"
 	"golang.zx2c4.com/wireguard/windows/tunnel/winipcfg"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/config"
 )
 
 func createTun(cfg Config) (conn net.Conn, itf *net.Interface, err error) {

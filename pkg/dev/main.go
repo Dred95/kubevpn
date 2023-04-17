@@ -39,10 +39,10 @@ import (
 	"k8s.io/kubectl/pkg/util/interrupt"
 	"k8s.io/kubectl/pkg/util/podutils"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/handler"
-	"github.com/wencaiwulue/kubevpn/pkg/mesh"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/handler"
+	"github.com/dred95/kubevpn/pkg/mesh"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 type ConnectMode string

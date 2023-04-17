@@ -34,9 +34,9 @@ import (
 	"k8s.io/kubectl/pkg/util/podutils"
 	"k8s.io/utils/pointer"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/mesh"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/mesh"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 type DuplicateOptions struct {

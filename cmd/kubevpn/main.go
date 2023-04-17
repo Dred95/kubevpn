@@ -3,7 +3,7 @@ package main
 import (
 	_ "net/http/pprof"
 
-	"github.com/wencaiwulue/kubevpn/cmd/kubevpn/cmds"
+	"github.com/dred95/kubevpn/cmd/kubevpn/cmds"
 )
 
 func main() {

@@ -5,9 +5,9 @@ import (
 	"github.com/spf13/cobra"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/controlplane"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/controlplane"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 func CmdControlPlane(_ cmdutil.Factory) *cobra.Command {

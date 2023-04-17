@@ -8,8 +8,8 @@ import (
 	"github.com/containernetworking/cni/pkg/types"
 	"github.com/pkg/errors"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/tun"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/tun"
 )
 
 var (

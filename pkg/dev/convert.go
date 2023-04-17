@@ -25,10 +25,10 @@ import (
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 	"k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/cp"
-	"github.com/wencaiwulue/kubevpn/pkg/dns"
-	"github.com/wencaiwulue/kubevpn/pkg/handler"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/cp"
+	"github.com/dred95/kubevpn/pkg/dns"
+	"github.com/dred95/kubevpn/pkg/handler"
 )
 
 type RunConfig struct {

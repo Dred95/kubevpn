@@ -12,7 +12,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.zx2c4.com/wireguard/tun"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/config"
 )
 
 func createTun(cfg Config) (conn net.Conn, itf *net.Interface, err error) {

@@ -12,10 +12,10 @@ import (
 	"go.uber.org/automaxprocs/maxprocs"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/core"
-	"github.com/wencaiwulue/kubevpn/pkg/handler"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/core"
+	"github.com/dred95/kubevpn/pkg/handler"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 func CmdServe(factory cmdutil.Factory) *cobra.Command {

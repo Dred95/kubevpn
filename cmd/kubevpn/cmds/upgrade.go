@@ -8,8 +8,8 @@ import (
 	"golang.org/x/oauth2"
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/upgrade"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/upgrade"
 )
 
 // GitHubOAuthToken

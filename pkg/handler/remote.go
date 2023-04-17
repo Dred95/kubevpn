@@ -33,9 +33,9 @@ import (
 	"k8s.io/kubectl/pkg/util/podutils"
 	"k8s.io/utils/pointer"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/exchange"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/exchange"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 func createOutboundPod(ctx context.Context, factory cmdutil.Factory, clientset *kubernetes.Clientset, namespace string) (err error) {

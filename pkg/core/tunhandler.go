@@ -14,9 +14,9 @@ import (
 	"github.com/google/gopacket/layers"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	pkgtun "github.com/wencaiwulue/kubevpn/pkg/tun"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	pkgtun "github.com/dred95/kubevpn/pkg/tun"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 const (

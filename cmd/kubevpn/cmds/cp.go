@@ -12,9 +12,9 @@ import (
 	"k8s.io/kubectl/pkg/util/i18n"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	"github.com/wencaiwulue/kubevpn/pkg/cp"
-	"github.com/wencaiwulue/kubevpn/pkg/handler"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/cp"
+	"github.com/dred95/kubevpn/pkg/handler"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 var cpExample = templates.Examples(i18n.T(`

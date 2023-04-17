@@ -15,7 +15,7 @@ import (
 	miekgdns "github.com/miekg/dns"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/config"
 )
 
 // systemd-resolve --status, systemd-resolve --flush-caches

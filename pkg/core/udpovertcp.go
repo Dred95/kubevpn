@@ -6,7 +6,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/config"
 )
 
 type datagramPacket struct {

@@ -21,10 +21,10 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"sigs.k8s.io/yaml"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/controlplane"
-	"github.com/wencaiwulue/kubevpn/pkg/mesh"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/controlplane"
+	"github.com/dred95/kubevpn/pkg/mesh"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 // https://istio.io/latest/docs/ops/deployment/requirements/#ports-used-by-istio

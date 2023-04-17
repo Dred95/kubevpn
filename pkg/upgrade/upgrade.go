@@ -11,9 +11,9 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/dred95/kubevpn/pkg/util"
 	goversion "github.com/hashicorp/go-version"
 	"github.com/schollz/progressbar/v3"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 
@@ -169,7 +169,7 @@ func getManifest(httpCli *http.Client) (version string, url string, err error) {
 }
 
 // https://api.github.com/repos/wencaiwulue/kubevpn/releases
-// https://github.com/wencaiwulue/kubevpn/releases/download/v1.1.13/kubevpn-windows-arm64.exe
+// https://github.com/dred95/kubevpn/releases/download/v1.1.13/kubevpn-windows-arm64.exe
 func download(client *http.Client, url string, filename string) error {
 	get, err := client.Get(url)
 	if err != nil {

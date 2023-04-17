@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/wencaiwulue/kubevpn/pkg/tun"
+	"github.com/dred95/kubevpn/pkg/tun"
 )
 
 func main() {

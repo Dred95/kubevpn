@@ -15,10 +15,10 @@ import (
 	"k8s.io/kubectl/pkg/util/i18n"
 	"k8s.io/kubectl/pkg/util/templates"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
-	"github.com/wencaiwulue/kubevpn/pkg/dev"
-	"github.com/wencaiwulue/kubevpn/pkg/handler"
-	"github.com/wencaiwulue/kubevpn/pkg/util"
+	"github.com/dred95/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/dev"
+	"github.com/dred95/kubevpn/pkg/handler"
+	"github.com/dred95/kubevpn/pkg/util"
 )
 
 // CmdDuplicate multiple cluster operate, can start up one deployment to another cluster

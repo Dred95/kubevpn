@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/wencaiwulue/kubevpn/pkg/config"
+	"github.com/dred95/kubevpn/pkg/config"
 )
 
 type tcpTransporter struct{}
